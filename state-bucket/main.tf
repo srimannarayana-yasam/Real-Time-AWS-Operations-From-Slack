@@ -1,7 +1,7 @@
 # S3 bucket for storing Terraform state
 
 resource "aws_s3_bucket" "state" {
-  bucket = "bhanudas-terraform-state-bucket"
+  bucket = "srimannarayana-terraform-state-bucket"
   force_destroy = true
 
   tags = {
